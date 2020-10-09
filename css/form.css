@@ -1,0 +1,268 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+body{
+  background-image: url(car1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+}
+.regform{
+  width: 800px;
+  background-color: rgb(0, 0, 0, 0.6);
+  margin: auto;
+  color: #FFFFFF;
+  padding: 10px 0px 10px 0px;
+  text-align: center;
+  border-radius: 15px 15px 0px 0px;
+
+}
+.main{
+  width: 800px;
+  background-color: rgb(0, 0, 0, 0.5);
+  margin: auto;
+
+}
+form{
+  padding: 30px;
+}
+.first{
+  margin: 30px;
+}
+.second{
+  margin: 30px;
+}
+.third{
+  margin: 30px;
+}
+.fourth{
+  margin: 30px;
+}
+.name1{
+  width: 25%;
+  height: 20px;
+  text-align: center;
+  margin-left: 30px;
+}
+.phone1{
+
+
+  width: 25%;
+  height: 20px;
+  text-align: center;
+  margin-left: 60px;
+}
+.email1{
+  width: 25%;
+  height: 20px;
+  text-align: center;
+  margin-left: 60px;
+
+
+}
+.city{
+  width: 25%;
+  height: 20px;
+  text-align: center;
+  margin-left: 30px;
+
+}
+.location{
+  width: 25%;
+  height: 20px;
+  text-align: center;
+  margin-left: 60px;
+
+}
+.landmark{
+  width: 25%;
+  height: 20px;
+  text-align: center;
+  margin-left: 60px;
+
+}
+.date{
+  width: 25%;
+  height: 20px;
+  text-align: center;
+  margin-left: 30px;
+
+
+}
+.time{
+  width: 25%;
+  height: 20px;
+  text-align: center;
+  margin-left: 60px;
+
+}
+.model{
+  width: 25%;
+  height: 20px;
+  text-align: center;
+  margin-left: 60px;
+
+
+}
+.variant{
+  width: 23%;
+  height: 20px;
+  text-align: center;
+  margin-left: 60px;
+}
+.btn1{
+  width: 10%;
+  height: 20px;
+  text-align: center;
+  margin-left: 60px;
+  background: linear-gradient(to right, #ff416c, #ff4b2b);
+  text-decoration: none;
+}
+.header {
+  height: 80px;
+  width: 100%;
+  display: block;
+  background-color: #0f3057;
+}
+
+.logo {
+  height: 100%;
+  display: table;
+  float: left;
+  color: white;
+  padding: 20px 20px 20px 20px;
+}
+
+.menu {
+  display: inline-flex;
+  float: right;
+  color: white;
+  height: 100%;
+  font-size: 18px;
+}
+
+.menu a {
+  color: white;
+  height: 100%;
+  display: table;
+  float: left;
+  padding: 30px 30px;
+}
+
+footer{
+  position: static;
+	bottom: 0;
+  top: 0;
+  background: #393b44;
+  color: #ffffff;
+}
+
+@media (max-height:800px){
+	footer { position: static; }
+	header { padding-top:40px; }
+}
+.main-content .hi {
+  flex-basis: 50%;
+  padding: 10px 20px;
+}
+
+}
+.hi h2 {
+  font-size: 1.125rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.hi .content {
+  margin: 20px 0 0 0;
+}
+
+.left-box .content .p {
+  text-align: justify;
+}
+
+.left-box .content .social {
+  margin: 20px 0 0 0;
+}
+
+.left-box .content .social a {
+  padding: 0 2px;
+}
+
+.left-box .content .social a span {
+  height: 40px;
+  width: 40px;
+  background: #B9FFFC;
+  line-height: 40px;
+  text-align: center;
+  font-size: 18px;
+  border-radius: 5px;
+  transition: 0.3s
+}
+
+.left-box .content .social a span:hover {
+  background: #f12020;
+}
+
+}
+.distributed{
+	background-color: #ffffff;
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: bold 16px sans-serif;
+	padding: 50px 50px 60px 50px;
+	margin-top: 80px;
+}
+
+.distributed .left-box,
+.distributed .center-box,
+.distributed .right-box{
+	display: inline-block;
+	vertical-align: top;
+}
+
+/* Footer left */
+
+.distributed .left-box{
+	width: 30%;
+}
+
+/* Footer Center */
+
+.distributed .center-box{
+	width: 35%;
+}
+
+/* Footer Right */
+
+.distributed .right-box{
+	width: 30%;
+}
+
+
+/* Here is the code for Responsive Footer */
+/* You can remove below code if you don't want Footer to be responsive */
+
+
+@media (max-width: 880px) {
+
+	.distributed .left-box,
+	.distributed .center-box,
+	.distributed .right-box{
+		display: block;
+		width: 100%;
+		margin-bottom: 0;
+		text-align: center;
+	}
+
+	.distributed .center-box i{
+		margin-left: 0;
+	}
+
+}

@@ -1,0 +1,207 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+.mid{
+  text-align: center;
+}
+.midd{
+  padding-top: 60;
+}
+.img {
+  display: block;
+  margin: 0;
+  width: 100%;
+  height: auto;
+  position: absoulte;
+}
+
+.container {
+  width: 90%;
+  margin: 50px auto;
+  height: auto;
+}
+
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-flow: wrap;
+}
+
+
+
+.card {
+  width: 30%;
+  backgroud: #fff;
+  border: 1px solid #ccc;
+  margin-bottom: 50px;
+  transition: 0.3s;
+}
+
+
+.card-header {
+  text-align: center;
+  padding: 50px 10px;
+  background: linear-gradient(to right, #ff416c, #ff4b2b);
+  color: #fff;
+  height: 120px;
+}
+.first{
+  position:relative;
+  top:20px;
+}
+
+.card-body {
+  padding: 30px 20px;
+  text-align: justify;
+  font-size: 18px
+}
+
+.card-body .bttn {
+  display: block;
+  color: #fff;
+  text-align: center;
+  background: linear-gradient(to right, #ff416c, #ff4b2b);
+  margin-top: 30px;
+  text-decoration: none;
+  padding: 10px 5px;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.25);
+}
+
+@media screen and (max-width:1000px) {
+  .card {
+    width: 40%;
+  }
+}
+
+@media screen and (max-width:620px) {
+  .container {
+    width: 100%;
+  }
+
+  .card {
+    width: 80%;
+  }
+}
+
+footer{
+  position: static;
+	bottom: 0;
+  top: 0;
+  background: #393b44;
+  color: #ffffff;
+}
+
+@media (max-height:800px){
+	footer { position: static; }
+	header { padding-top:40px; }
+}
+.main-content .hi {
+  flex-basis: 50%;
+  padding: 10px 20px;
+}
+
+}
+.hi h2 {
+  font-size: 1.125rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.hi .content {
+  margin: 20px 0 0 0;
+}
+
+.left-box .content .p {
+  text-align: justify;
+}
+
+.left-box .content .social {
+  margin: 20px 0 0 0;
+}
+
+.left-box .content .social a {
+  padding: 0 2px;
+}
+
+.left-box .content .social a span {
+  height: 40px;
+  width: 40px;
+  background: #B9FFFC;
+  line-height: 40px;
+  text-align: center;
+  font-size: 18px;
+  border-radius: 5px;
+  transition: 0.3s
+}
+
+.left-box .content .social a span:hover {
+  background: #f12020;
+}
+
+}
+.distributed{
+	background-color: #ffffff;
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: bold 16px sans-serif;
+	padding: 50px 50px 60px 50px;
+	margin-top: 80px;
+}
+
+.distributed .left-box,
+.distributed .center-box,
+.distributed .right-box{
+	display: inline-block;
+	vertical-align: top;
+}
+
+/* Footer left */
+
+.distributed .left-box{
+	width: 30%;
+}
+
+/* Footer Center */
+
+.distributed .center-box{
+	width: 35%;
+}
+
+/* Footer Right */
+
+.distributed .right-box{
+	width: 30%;
+}
+
+
+/* Here is the code for Responsive Footer */
+/* You can remove below code if you don't want Footer to be responsive */
+
+
+@media (max-width: 880px) {
+
+	.distributed .left-box,
+	.distributed .center-box,
+	.distributed .right-box{
+		display: block;
+		width: 100%;
+		margin-bottom: 0;
+		text-align: center;
+	}
+
+	.distributed .center-box i{
+		margin-left: 0;
+	}
+
+}
